@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipe Gallery</title>
+    </head>
+    <body>
+        <h1>CHOWMEIN</h1>
+        <div class="main">
+            <div class="box1"><img src="CHOWMEIN.avif"> <h3>80 $</h3></div>
+            <div class="box2"><img src="Chinies.avif"> <h3>50 $</h3></div>
+            <div class="box3"><img src="munchurian.avif"> <h3>75 $</h3></div>
+            <div class="box4"><img src="fried rice.avif"> <h3>70 $</h3></div>
+            <div class="box5"><img src="CHOWMEIN.avif"> <h3>60 $</h3></div>
+            <div class="box6"><img src="paneer chilly.avif"> <h3>65 $</h3></div>
+        </div><br><br>
+        <h1>HOT BEVERAGES</h1>
+        <div class="main">
+            <div class="box1"><img src="black tea.avif"> <h3>80 $</h3></div>
+            <div class="box2"><img src="milk tea.avif"> <h3>50 $</h3></div>
+            <div class="box3"><img src="lemon tea.avif"> <h3>75 $</h3></div>
+            <div class="box4"><img src="milk coffee.avif"> <h3>60 $</h3></div>
+            <div class="box5"><img src="hot lemon.avif"> <h3>60 $</h3></div>
+            <div class="box6"><img src="black coffee.avif"> <h3>65 $</h3></div>
+        </div><br><br>
+        <h1>COLD DRINKS</h1>
+        <div class="main">
+            <div class="box1"><img src="real juice.avif"> <h3>80 $</h3></div>
+            <div class="box2"><img src="red bull blue.avif"> <h3>50 $</h3></div>
+            <div class="box3"><img src="lemon juice cold.avif"> <h3>75 $</h3></div>
+            <div class="box4"><img src="minerat water.avif"> <h3>70 $</h3></div>
+            <div class="box5"><img src="milk shake.avif"> <h3>60 $</h3></div>
+            <!-- <div class="box6"><img src=""> <h3>65 $</h3></div> -->
+        </div><br><br>
+    </body>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgba(0,0,0,0.7)url('vegetable-gravy-7201669_1280.jpg')center center fixed;
+             background-size: cover;
+            background-blend-mode: darken;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+        }
+        h1,h3{
+            text-align: center;
+            color: white;
+        }
+        .main div{
+            height: 250px;
+            width: 200px;
+            border: 1px solid white;
+            border-radius: 10px;
+            transition: all 0.7s linear;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+            gap: 50px;
+        }
+        img{
+            height: 150px;
+            width: 150px;
+            align-items: center;
+            place-items: center;
+            margin-left: 25px;
+            margin-top: 15px;
+            border-radius: 8px;
+            transition: all 0.7s linear;
+        }
+        img:hover{
+            height: 175px;
+            width: 175px;
+        }
+        .main div:hover{
+            height: 300px;
+            width: 250px;
+        }
+    </style>
+</html>

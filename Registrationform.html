@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email address">
+            <input type="number" placeholder="Phone">
+
+            <input type="password" placeholder="Password">
+
+
+            <div class="terms">
+                <input class="check" type="checkbox">
+               <span class="span1">  I accept</span>
+
+                <span>Terms and Condition</span>
+            </div>
+
+
+            <div class="btn">
+                <a href="#">Create Account</a>
+            </div>
+            <div class="signin">
+                <p>Already have an account? <a href="#">Sign in</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: rgba(0,0,0,0.7)url('vegetable-gravy-7201669_1280.jpg')center center fixed;
+        background-size: cover;
+        background-blend-mode: darken;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background: rgba(0, 0, 0, 0)center center fixed;
+        background-color: rgba(4, 42, 100, 0.222);
+        
+        min-width: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4%;
+        box-shadow: 4px 5px 12px rgba(255, 255, 255, 0.101), -4px -5px 12px rgba(255, 255, 255, 0.105);
+    }
+
+    h1 {
+        color: red;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    .container form {
+        height: 100%;
+        padding: 2%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        width: 100%;
+    }
+
+    .container form input {
+        width: 100%;
+        padding: 3%;
+        border: none;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.128);
+        color: white;
+        background: none;
+        transition: all 1s ease;
+    }
+
+    .container form input:focus {
+        outline: none;
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+
+    .container form input:focus {
+        transform: translate(10px 10px);
+    }
+
+
+
+    .container form .terms {
+        display: flex;
+        justify-content: left;
+        margin-left: -20%;
+        column-gap: 10px;
+    }
+
+    .container form .terms .check,
+    .container form .terms .check:active {
+        width: auto;
+        cursor: pointer;
+    }
+
+    .container form .terms .span1 {
+        color: rgb(255, 255, 255);
+    }
+    .container form .terms span {
+        color: rgb(0, 170, 255);
+    }
+
+    .container form .terms span:active,
+    .container form .terms span:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .btn {
+        background-color: rgb(14, 142, 185);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 200px;
+        padding: 3%;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 5px 12px black;
+    }
+
+    .btn:active {
+        box-shadow: inset 0px 0px 6px;
+        cursor: pointer;
+
+    }
+
+    .btn a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+
+    }
+
+    .signin p {
+        font-family: sans-serif;
+        margin-top: 2%;
+        color: white;
+    }
+
+    .signin a {
+        text-decoration: none;
+        color: rgb(5, 197, 255);
+    }
+
+    .signin a:active {
+        text-decoration: underline;
+        color: blue;
+    }
+</style>
+
+</html>

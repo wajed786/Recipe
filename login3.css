@@ -1,0 +1,66 @@
+
+
+.box{
+
+    height:350px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px black;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 30%;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5%;
+}
+.login{
+    width: 130px;
+    padding: 2%;
+    background: linear-gradient(to right, rgb(242, 0, 149), rgb(255, 0, 81));
+   margin-left: 6%;
+}
+.signup{
+    width: 130px;
+    padding: 2%;
+   background-color: white;
+    border: -5px solid rgba(0, 0, 0, 0.405) ;
+    margin-left: 0%;
+   }
+   .email{
+    width: 250px;
+    margin-left: 6%;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.159);
+   
+   }
+   .password{
+    width: 250px;
+    margin-left: 6%;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.159);
+    }
+    .forgetbtn{
+        border: none;
+        color: rgb(255, 0, 51);
+        margin-left: 5%;
+    }
+    .loginbtn{
+    width: 263px;
+    margin-left: 6%;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.159);
+    color: white;
+    background: linear-gradient(to right, rgb(242, 0, 149), rgb(255, 0, 81));
+   }
+   span{
+    font-size: 16px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 16%;
+   }
+   .signupnow{
+    border: none;
+    color: rgb(255, 0, 51);
+   }
+
